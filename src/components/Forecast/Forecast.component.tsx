@@ -1,8 +1,8 @@
 import React, {useState, useCallback} from 'react';
 import { debounce } from 'lodash';
 import Days from '../Days/Days.component';
-import Error from '../error/Error.component';
-import Spinner from '../spinner/Spinner.component';
+import Error from '../Error/Error.component';
+import Spinner from '../Spinner/Spinner.component';
 import { useWeather } from '../../hooks/useWeather.hook';
 import { Styled } from './Forecast.styles';
 

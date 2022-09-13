@@ -35,6 +35,11 @@ const Spinner = styled.svg`
     }
 `;
 
+
+const SpinnerWrapper = styled.div`
+    margin-top: 30px;
+`
 export const Styled = {
+    SpinnerWrapper,
     Spinner
 }

@@ -3,7 +3,7 @@ import { SpinnerProps } from './Spinner.model';
 import { Styled } from './Spinner.styles';
 
 const Spinner: React.FC<SpinnerProps> = ({isLoading}) => (
-    <>
+    <Styled.SpinnerWrapper>
         {isLoading ?
             <Styled.Spinner viewBox="0 0 50 50">
                 <circle
@@ -18,7 +18,7 @@ const Spinner: React.FC<SpinnerProps> = ({isLoading}) => (
             :
             null
         }
-     </>
+     </Styled.SpinnerWrapper>
 );
 
 export default Spinner;

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Image from '../image/image.component'
+import Image from '../Image/Image.component'
 import { Styled } from './Days.styles';
 import { Week, Map } from '../../model';
 import { DaysProps } from './Days.model';

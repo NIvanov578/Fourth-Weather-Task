@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { ImageProps } from './image.model';
-import { Styled } from './image.styles';
+import { ImageProps } from './Image.model';
+import { Styled } from './Image.styles';
 
 const ProgressiveImage: React.FC<ImageProps> =  ({ src }) => {
     const [imgSrc, setSrc] = useState('');
@@ -26,4 +26,4 @@ const ProgressiveImage: React.FC<ImageProps> =  ({ src }) => {
             
   };
 
-  export default ProgressiveImage;
+export default ProgressiveImage;
