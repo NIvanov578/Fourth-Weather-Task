@@ -1,4 +1,4 @@
-import { mockForcast } from "../mockData/mockData";
+import { mockForcast } from "../../mockData/mockData";
 import { groupByDate } from "../../utils/groupByDate";
 import * as hooks from '../../hooks/useWeather.hook';
 import { shallow } from "enzyme";

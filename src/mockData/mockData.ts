@@ -1,4 +1,4 @@
-import { ForecastResponse } from "../../model";
+import { ForecastResponse } from "../model";
 
 export const mockForcast: ForecastResponse = {
     "cod":"200",

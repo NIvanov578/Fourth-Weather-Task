@@ -1,4 +1,4 @@
-import { mockForcast } from "../mockData/mockData";
+import { mockForcast } from "../../mockData/mockData";
 import { groupByDate } from "../../utils/groupByDate";
 import Days from './Days.component';
 import { DateDayMap, Day } from "../../model";
