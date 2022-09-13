@@ -1,10 +1,9 @@
 import React  from 'react';
+import Forecast from './components/Forecast/Forecast.component';
 
 function App() {
-
   return (
-    <div className="App">
-    </div>
+    <Forecast />
   );
 }
 
